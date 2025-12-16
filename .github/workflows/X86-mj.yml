@@ -32,11 +32,11 @@ on:
 
 env:
   REPO_URL: https://github.com/immortalwrt/immortalwrt/
-  REPO_BRANCH: openwrt-21.02
+  REPO_BRANCH: openwrt-25.12
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: ./config/X86-mj.config
   DIY_P1_SH: ./diy/Redmi-AX6000-hanwckf-1.sh
-  DIY_P2_SH: ./diy/Redmi-AX6000-hanwckf-2-mj.sh
+  DIY_P2_SH: ./diy/Redmi-AX6000-hanwckf-2.sh
   UPLOAD_BIN_DIR: true
   UPLOAD_FIRMWARE: true
   UPLOAD_RELEASE: true
